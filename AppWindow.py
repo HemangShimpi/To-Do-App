@@ -215,7 +215,7 @@ class AppWindow(Toplevel):
         db = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="poonam@2815",
+                password="dummyPass",
                 database="todo"
         )
 
@@ -251,7 +251,7 @@ class AppWindow(Toplevel):
         sendEmail.starttls()
 
         # login and pass passed in using login method
-        sendEmail.login("hemangshimpi2@gmail.com", "Hemang@281511")
+        sendEmail.login("hemangshimpi2@gmail.com", "dummyPass")
 
         # emailSubject var for subject
         emailSubject = str("Tasks Reminder!")
