@@ -25,7 +25,7 @@ def main():
     window.geometry("530x400+400+150")
 
     # using PhotoImage to set a background image as a label for the window 
-    bg_img = PhotoImage(file="C:\\Users\\heman\\OneDrive\\Desktop\\Junior Year Documents\\PC_Club Project\\bg_img.png")
+    bg_img = PhotoImage(file="C:\\bg_img.png")
     bg_lbl = Label(window, image=bg_img)
 
     # places the image directly in the center
