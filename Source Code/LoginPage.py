@@ -130,7 +130,7 @@ class LoginPage(Frame):
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="poonam@2815",
+            password="dummyPass",
             database="accountValues"
         )
 
@@ -179,7 +179,7 @@ class LoginPage(Frame):
                     window_2.geometry("530x400+400+150")
 
                     # using PhotoImage to set a background image as a label for the window 
-                    bg_img = PhotoImage(file="C:\\Users\\heman\\OneDrive\\Desktop\\Junior Year Documents\\PC_Club Project\\bg_img_2.png")
+                    bg_img = PhotoImage(file="C:\\Desktop\\Junior Year Documents\\PC_Club Project\\bg_img_2.png")
                     bg_lbl = Label(window_2, image=bg_img)
 
                     # places the image directly in the center
@@ -240,7 +240,7 @@ class LoginPage(Frame):
             db = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="poonam@2815",
+                password="dummyPass",
                 database="accountValues"
             )
             
