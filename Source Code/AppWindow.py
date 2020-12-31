@@ -1,5 +1,5 @@
 '''
-    File Name: LoginPage.py
+    File Name: AppWindow.py
     Author: Hemang Shimpi
     Date Created: 12/19/20
     Date last modified: 12/25/20
@@ -224,7 +224,7 @@ class AppWindow(Toplevel):
         sendEmail.starttls()
 
         # login and pass passed in using login method
-        sendEmail.login("hemangshimpi2@gmail.com", "Hemang@281511")
+        sendEmail.login("hemangshimpi2@gmail.com", "dummyPass")
 
         # emailSubject var for subject
         emailSubject = str("Tasks Reminder!")
